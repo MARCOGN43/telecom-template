@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Telecom Template</title>
+  <link href="https://fonts.googleapis.com/css2?family=Gabarito&display=swap" rel="stylesheet" />
+</head>
+
+<body class="font-gabarito mx-auto w-390px">
+  <header class="flex items-center bg-primary justify-between p-4 w-auto h-auto">
+    <!-- Logo -->
+    <div class="flex">
+      <img src="./assets/images/logo.png" alt="">
+    </div>
+
+    <nav class="flex gap-2 h-auto items-center">
+      <!-- Search -->
+      <button class="flex icon-top-bar transition(duration-0  ease-in-out) hover:(bg-secondary duration-300)">
+        <a href="#" class="i-mdi-search text-size-7"></a>
+      </button>
+
+      <!-- Shop -->
+      <button class="flex icon-top-bar transition(duration-0  ease-in-out) hover:(bg-secondary duration-300)">
+        <a href="#" class="i-mdi-shop-outline text-size-7"></a>
+      </button>
+
+      <!-- Account -->
+      <button id="account-login" class="flex icon-top-bar.active transition(duration-0  ease-in-out) hover:(bg-secondary duration-300)">
+        <a href="#" class="i-mdi-account-outline text-size-7"></a>
+      </button>
+
+      <!-- ShopBag -->
+      <button class="flex icon-top-bar transition(duration-0  ease-in-out) hover:(bg-secondary duration-300)">
+        <a href="#" class="i-mdi-shopping-cart-outline text-size-7"></a>
+      </button>
+    </nav>
+  </header>
+
+  <main class="flex flex-col">
+
+    <!-- AppDownload -->
+    <div id="app-download" class="flex flex-col py-16  px-4 gap-4 bg-app-downland-gradient text-white">
+      <!-- Top / Left -->
+      <div class="flex flex-col items-center gap-3">
+        <div>
+          <p class="font-400 text-size-5xl m-0 tracking-wide">TÉLÉCHARGEZ</p>
+        </div>
+
+        <div>
+          <p class="font-900 text-size-5xl m-0 tracking-wider">L'APPLICATION</p>
+        </div>
+
+        <div>
+          <p class="font-400 text-size-5xl m-0 tracking-wide">MYAFFRICELL</p>
+        </div>
+      </div>
+
+      <!-- Middle -->
+      <div>
+        <img src="./assets/images/phone-app.png" alt="" class="w-full h-full object-contain">
+      </div>
+
+      <!-- Bottom / Right -->
+      <div class="flex flex-col gap-5xl">
+        <!-- Text -->
+        <div class="flex flex-col p-0 items-start">
+          <div class="flex justify-start w-full">
+            <p class="font-600 text-size-4xl m-0">Profitez de</p>
+          </div>
+  
+          <div class="flex justify-center w-full">
+            <p class="font-600 text-size-32px m-0">Nos 
+              <span class="font-900 text-size-5xl">Meilleures</span>
+            </p>
+          </div>
+  
+          <div class="flex justify-end w-full">
+            <p class="font-900 text-size-5xl m-0 items-end">Offres</p>
+          </div>
+        </div>
+
+        <!-- Buttons & Link -->
+        <div class="flex flex-col gap-4">
+          <!-- Buttons -->
+          <div class="flex justify-evenly">
+            <!-- GooglePlay -->
+            <div class="app-library-btn">
+              <!-- icon -->
+              <div class="flex">
+                <svg width="28" height="29" viewBox="0 0 28 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_105_5)">
+                  <path d="M13.0761 13.7322L0.115967 26.0151C0.261508 26.4816 0.523051 26.9119 0.880602 27.2731C1.23815 27.6342 1.68224 27.9166 2.17893 28.0986C2.67562 28.2807 3.21175 28.3576 3.74634 28.3236C4.28093 28.2895 4.79983 28.1453 5.26337 27.902L19.846 20.3891L13.0761 13.7322Z" fill="#EA4335"/>
+                  <path d="M26.1811 11.6443L19.8751 8.37695L12.7769 14.0116L19.9039 20.3714L26.162 17.1391C26.7163 16.8765 27.1807 16.4816 27.5047 15.9973C27.8287 15.513 28 14.9577 28 14.3917C28 13.8256 27.8287 13.2703 27.5047 12.786C27.1807 12.3017 26.7163 11.9068 26.162 11.6442L26.1811 11.6443Z" fill="#FBBC04"/>
+                  <path d="M0.11591 2.70728C0.0376189 2.96926 -0.00137623 3.23958 -2.71984e-05 3.51096V25.2112C0.000745873 25.4825 0.039705 25.7526 0.11591 26.0149L13.5204 14.0466L0.11591 2.70728Z" fill="#4285F4"/>
+                  <path d="M13.1727 14.3612L19.875 8.37701L5.31172 0.829077C4.76378 0.538808 4.14059 0.385081 3.50561 0.383551C1.92984 0.380781 0.544498 1.32684 0.115967 2.69865L13.1727 14.3612Z" fill="#34A853"/>
+                  </g>
+                  <defs>
+                  <clipPath id="clip0_105_5">
+                  <rect width="28" height="28" fill="white" transform="translate(0 0.383545)"/>
+                  </clipPath>
+                  </defs>
+                </svg>
+              </div>
+
+              <!-- text -->
+                <div class="flex flex-col">
+                  <div>
+                    <p class="font-400 text-size-3 m-0">Disponible sur</p>
+                  </div>
+                  <div>
+                    <p class="font-500 text-size-18px m-0">Google Play</p>
+                  </div>
+                </div>
+            </div>
+
+            <!-- AppStore -->
+            <div class="app-library-btn">
+              <!-- icon -->
+              <div class="flex">
+                <svg width="32" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_105_14)">
+                  <path d="M7.008 0.883545H24.992C28.8625 0.883545 32 4.02104 32 7.89154V25.8755C32 29.746 28.8625 32.8835 24.992 32.8835H7.008C3.1375 32.8835 0 29.746 0 25.8755V7.89154C0 4.02104 3.1375 0.883545 7.008 0.883545Z" fill="url(#paint0_linear_105_14)"/>
+                  <path d="M10.2552 24.1097L10.2582 24.1107L9.16412 26.0057C8.76475 26.6975 7.88025 26.9345 7.1885 26.5351C6.49675 26.1357 6.25975 25.2512 6.65912 24.5595L7.46512 23.1635L7.5425 23.0295C7.68062 22.831 8.0215 22.4882 8.70337 22.5527C8.70337 22.5527 10.308 22.7268 10.4241 23.5608C10.4241 23.5608 10.4399 23.8352 10.2552 24.1097ZM25.7731 19.2697H22.3614C22.129 19.2541 22.0276 19.1711 21.9876 19.1228L21.9851 19.1185L18.333 12.7927L18.3282 12.7958L18.1092 12.4818C17.7502 11.9328 17.1802 13.3368 17.1802 13.3368C16.4996 14.9013 17.2769 16.68 17.5477 17.2176L22.6205 26.0038C23.0197 26.6955 23.9042 26.9326 24.5961 26.5331C25.2877 26.1337 25.5249 25.2492 25.1254 24.5575L23.857 22.3605C23.8324 22.3072 23.7896 22.1627 24.0497 22.1621H25.7731C26.5719 22.1621 27.2194 21.5146 27.2194 20.7158C27.2194 19.9171 26.5719 19.2697 25.7731 19.2697ZM19.1464 21.2356C19.1464 21.2356 19.3285 22.162 18.6239 22.162H6.0115C5.21275 22.162 4.56525 21.5145 4.56525 20.7157C4.56525 19.917 5.21275 19.2695 6.0115 19.2695H9.254C9.7775 19.2392 9.9015 18.937 9.9015 18.937L9.9045 18.9385L14.137 11.6075L14.1357 11.6072C14.2129 11.4656 14.1486 11.3317 14.1375 11.3106L12.7396 8.88945C12.3402 8.19783 12.5772 7.3132 13.269 6.91395C13.9607 6.5147 14.8452 6.75145 15.2446 7.4432L15.8929 8.56608L16.54 7.4452C16.9394 6.75358 17.8239 6.51645 18.5156 6.91595C19.2074 7.31545 19.4444 8.1997 19.045 8.89145L13.1552 19.0927C13.1295 19.1548 13.1216 19.2523 13.3132 19.2695H16.8337L16.8345 19.3038C16.8345 19.3038 18.8692 19.3355 19.1464 21.2356Z" fill="white"/>
+                  </g>
+                  <defs>
+                  <linearGradient id="paint0_linear_105_14" x1="1600" y1="0.883545" x2="1600" y2="3200.88" gradientUnits="userSpaceOnUse">
+                  <stop stop-color="#17C9FB"/>
+                  <stop offset="1" stop-color="#1A74E8"/>
+                  </linearGradient>
+                  <clipPath id="clip0_105_14">
+                  <rect width="32" height="32" fill="white" transform="translate(0 0.883545)"/>
+                  </clipPath>
+                  </defs>
+                </svg>
+              </div>
+
+              <!-- text -->
+                <div class="flex flex-col">
+                  <div>
+                    <p class="font-400 text-size-3 m-0">Disponible sur</p>
+                  </div>
+                  <div>
+                    <p class="font-500 text-size-18px m-0">App Store</p>
+                  </div>
+                </div>
+            </div>
+          </div>
+
+          <!-- Link -->
+          <div class="text-center">
+            <p class="font-700 text-size-18px underline underline-offset-4 m-0 hover:decoration-[#F47C24]">www.africell.cd/app</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Lien vers le fichier JavaScript principal -->
+  <script type="module" src="/main.js"></script>
+</body>
+
+</html>

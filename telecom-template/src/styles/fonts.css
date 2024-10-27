@@ -1,0 +1,18 @@
+/* src/styles/fonts.css */
+@font-face {
+    font-family: 'Gabarito';
+    src: url('../assets/fonts/Gabarito-Regular.woff2') format('woff2'),
+        url('../assets/fonts/Gabarito-Black.woff2') format('woff2'), 
+         url('../assets/fonts/Gabarito-Bold.woff2') format('woff2'),
+         url('../assets/fonts/Gabarito-ExtraBold.woff2') format('woff2'),
+         url('../assets/fonts/Gabarito-Medium.woff2') format('woff2'), 
+         url('../assets/fonts/Gabarito-SemiBold.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  /* Utilisation des polices locales */
+  body {
+    font-family: 'Gabarito', sans-serif;
+  }
+  
