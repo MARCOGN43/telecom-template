@@ -81,5 +81,5 @@ export default defineConfig({
       [&::-webkit-scrollbar-thumb]:bg-primary [&::-webkit-scrollbar-thumb]:rounded-[2rem]
     `,
     'card': 'min-w-fit object-contain max-h-fit snap-start relative',
-  }
+  },
 });

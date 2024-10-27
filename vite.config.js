@@ -1,11 +1,20 @@
-// vite.config.js
 import { defineConfig } from 'vite';
 import UnoCSS from 'unocss/vite';
 
 export default defineConfig({
   plugins: [
-    UnoCSS(), // Utilisation de UnoCSS sans Vue.js
+    UnoCSS({
+      configFile: 'uno.config.ts',
+    }),
   ],
-  root: 'src', // Le dossier source pour les fichiers HTML
-  base: '/telecom-template/',
+  root: 'src',
+  base: './', // Base pour les liens relatifs
+  build: {
+    outDir: '../dist',
+    emptyOutDir: true,
+  },
+  publicDir: '../public',
+  server: {
+    open: true,
+  },
 });
